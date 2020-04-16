@@ -1,0 +1,147 @@
+header , footer{
+    background-color: #f13f5f;
+    color: white;
+    font-size: 18px;
+
+}
+
+footer{
+    padding: 10px;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+}
+.bistro{
+    height: 40px;
+}
+.fit{
+    width: 220px;
+    height: 45px;
+
+}
+.saude{
+height: 40px;
+    margin-right: 50px;
+}
+
+.bistro, .saude, .fit{
+margin-top: 6%;
+
+
+}
+.white{
+    color: white;
+}
+.separador{
+    border-right: white 1px solid;
+}
+
+.instagram{
+    text-decoration: white;
+    color: white;
+    font-size: 14px;
+}
+
+.captura{
+    background-image: url('http://127.0.0.1:8000/images/captura.png');
+    background-size: cover;
+    height: 450px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.captura_font{
+    font-size: 16px;
+
+}
+.form_captura {
+    background: none;
+    color: white;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px white solid;
+
+
+}
+.form-button{
+    background: none;
+    color: white;
+    outline: none;
+    width: 90%;
+    height: 40px;
+    cursor: pointer;
+    border: white 1px solid;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.form-button:hover{
+    background-color: #00c054;
+    transition: 400ms;
+    width: 100%;
+    height: 55px;
+    margin-right: 100px;
+}
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.sortear{
+    background-color: #eb516e;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+.sortear-content{
+    border-radius: 10px;
+    background-color: rgba(194, 194, 194, 0.37);
+
+}
+
+.btn-front{
+    background-color: #eb516e;
+    color: white;
+    padding: 10px;
+}
+footer, p{
+    font-size: 12px;
+}
+
+
+@media (max-width: 575px) {
+    .captura{
+        background-position: right;
+
+    }
+}
+
+
+@media (max-width: 425px) {
+    .logo{
+        width: 90px;
+        height: 70px;
+    }
+    .bistro{
+        height: 30px;
+    }
+    .fit{
+       margin-right: 15%;
+        width: 220px;
+        height: 45px;
+
+    }
+    .saude{
+        height: 30px;
+    }
+
+    .teste{
+        background-color: white;
+    }
+
+
+}
